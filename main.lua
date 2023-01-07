@@ -14,6 +14,6 @@ function love.draw()
 	, 100, 100)
 end
 
-urfs.mount(gamedir)
+--urfs.mount(gamedir)
 --package.loaded["main"] = nil
 --require("main")
