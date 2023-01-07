@@ -11,9 +11,8 @@ if not C.PHYSFS_mount(gamedir, nil, 0) == 0 then
 	    mountedAs[archive] = mountPoint or ""
     end
 end
-
 --loading the game
 package.loaded["main"] = nil
 require("main")
 
---TODO: code for reloading when reoping the ap
+--TODO: code for reloading when reoping the app
