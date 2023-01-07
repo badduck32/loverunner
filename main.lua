@@ -16,4 +16,4 @@ end
 package.loaded["main"] = nil
 require("main")
 
---TODO: code for reloading when reoping the app
+--TODO: code for reloading when reoping the ap
