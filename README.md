@@ -1,5 +1,5 @@
 # LÖVErunner
-Small application for quicly running your LÖVE2D projects on Android.
+Small application for quickly testing your LÖVE2D projects on Android.
 Using this, you will be able to create a shortcut on your home screen that will run a specified LÖVE2D project and this will automatically
 contain the latest updated changes of your project.
 
