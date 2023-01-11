@@ -1,5 +1,5 @@
 --the location of the game you want to continuously build
-local gamedir = "C:/Users/baddu/Documents/Love2D/test"
+local gamedir = "/storage/emulated/0/Love2D/test"
 
 --mounting code
 local ffi = require "ffi"
@@ -14,5 +14,3 @@ end
 --loading the game
 package.loaded["main"] = nil
 require("main")
-
---TODO: code for reloading when reoping the app
