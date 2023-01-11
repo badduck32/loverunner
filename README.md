@@ -15,9 +15,12 @@ Here's an example of how this would look:
 
 ```local gamedir = "/storage/emulated/0/Love2D/test"```
 
-Once you edited this correctly, you can pack the entire game in a .love file, and this will automatically run your project with the latest changes
+Once you edited this correctly, you can pack the main.lua into a .love file, and upon running it, this file will automatically run your project with its latest changes
 
 **NOTE:** *If your project contains a conf.lua file, add it as a sibling to this repository's main.lua file and pack it together in 1 .love file*
 
 An extra step to make the process even more streamlined is to create a shortcut to this .love file that you just created on your home screen.
-The app I personally used for this is [Shortcut Maker](https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker)
+The app I personally used for this is [Shortcut Maker.](https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker)
+
+## Credits
+The mounting code was taken straight from [rgram](https://github.com/rgrams)'s [UnRestricted FileSystem](https://github.com/rgrams/urfs)
